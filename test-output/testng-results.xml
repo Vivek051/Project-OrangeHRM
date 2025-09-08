@@ -1,21 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-07T22:13:02 IST" name="Suite" finished-at="2025-09-07T22:13:44 IST" duration-ms="41571">
+  <suite started-at="2025-09-08T15:29:59 IST" name="Default suite" finished-at="2025-09-08T15:31:58 IST" duration-ms="119093">
     <groups>
     </groups>
-    <test started-at="2025-09-07T22:13:02 IST" name="Test" finished-at="2025-09-07T22:13:44 IST" duration-ms="41571">
+    <test started-at="2025-09-08T15:29:59 IST" name="Default test" finished-at="2025-09-08T15:31:58 IST" duration-ms="119093">
       <class name="com.orangehrm.test.OrangeHRMTestCases">
-        <test-method is-config="true" signature="setupreport()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@5b94b04d]" started-at="2025-09-07T22:13:02 IST" name="setupreport" finished-at="2025-09-07T22:13:02 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="setupreport()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:29:58 IST" name="setupreport" finished-at="2025-09-08T15:29:59 IST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupreport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@5b94b04d]" started-at="2025-09-07T22:13:03 IST" name="setup" finished-at="2025-09-07T22:13:09 IST" duration-ms="5499" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:30:00 IST" name="setup" finished-at="2025-09-08T15:30:06 IST" duration-ms="5970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchProject(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@5b94b04d]" started-at="2025-09-07T22:13:09 IST" name="searchProject" data-provider="projectdata" finished-at="2025-09-07T22:13:41 IST" duration-ms="32592" status="PASS">
+        <test-method signature="verifyloginTestcase1(java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:30:06 IST" name="verifyloginTestcase1" data-provider="loginData1" finished-at="2025-09-08T15:30:19 IST" duration-ms="12585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginTestcase1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:30:19 IST" name="teardown" finished-at="2025-09-08T15:30:20 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:30:20 IST" name="setup" finished-at="2025-09-08T15:30:25 IST" duration-ms="4980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddingEmployeeTestCase2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:30:25 IST" name="AddingEmployeeTestCase2" data-provider="addUserData" finished-at="2025-09-08T15:30:51 IST" duration-ms="25555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[James Butler]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[james1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[James@1234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[James@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingEmployeeTestCase2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:30:51 IST" name="teardown" finished-at="2025-09-08T15:30:52 IST" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:30:52 IST" name="setup" finished-at="2025-09-08T15:30:58 IST" duration-ms="5449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchEmployeeQuickTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:30:58 IST" name="searchEmployeeQuickTest" data-provider="EmployeeData" finished-at="2025-09-08T15:31:11 IST" duration-ms="12887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex  Brown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[E103]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jane  Smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployeeQuickTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:31:11 IST" name="teardown" finished-at="2025-09-08T15:31:13 IST" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:31:13 IST" name="setup" finished-at="2025-09-08T15:31:18 IST" duration-ms="5253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchEmployeeLeaveList(java.lang.String,java.lang.String)[pri:4, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:31:18 IST" name="searchEmployeeLeaveList" data-provider="loginData1" finished-at="2025-09-08T15:31:36 IST" duration-ms="18145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployeeLeaveList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:31:36 IST" name="teardown" finished-at="2025-09-08T15:31:37 IST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:31:37 IST" name="setup" finished-at="2025-09-08T15:31:42 IST" duration-ms="4978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProject(java.lang.String,java.lang.String)[pri:5, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:31:42 IST" name="searchProject" data-provider="projectdata" finished-at="2025-09-08T15:31:56 IST" duration-ms="13689" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,15 +152,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProject -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@5b94b04d]" started-at="2025-09-07T22:13:41 IST" name="teardown" finished-at="2025-09-07T22:13:44 IST" duration-ms="2780" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:31:56 IST" name="teardown" finished-at="2025-09-08T15:31:58 IST" duration-ms="1649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="flushreport()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@5b94b04d]" started-at="2025-09-07T22:13:44 IST" name="flushreport" finished-at="2025-09-07T22:13:44 IST" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="flushreport()[pri:0, instance:com.orangehrm.test.OrangeHRMTestCases@bccb269]" started-at="2025-09-08T15:31:58 IST" name="flushreport" finished-at="2025-09-08T15:31:58 IST" duration-ms="549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushreport -->
       </class> <!-- com.orangehrm.test.OrangeHRMTestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

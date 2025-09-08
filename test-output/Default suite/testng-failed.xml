@@ -8,7 +8,7 @@
           <include name="flushreport"/>
           <include name="setupreport"/>
           <include name="setup"/>
-          <include name="searchProject" invocation-numbers="0"/>
+          <include name="searchEmployeeQuickTest" invocation-numbers="0"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- com.orangehrm.test.OrangeHRMTestCases -->
